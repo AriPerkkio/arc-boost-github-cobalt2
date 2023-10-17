@@ -1,0 +1,48 @@
+:root {
+  /*https://github.com/wesbos/cobalt2#official-colours */
+  --yellow: #ffc600;
+  --yellow-dim: #ffc600bb;
+  --orange: #ff9d00;
+  --mint: #2affdf;
+  --blue: #193549;
+  --off-blue: #0d3a58;
+  --dusty-blue: #35434d;
+  --dark-blue: #15232d;
+  --pink: #fb94ff;
+  --light-blue: #9effff;
+  --green-dim: #00ff00aa;
+  --red-dim: #ff0000aa;
+
+  --color-fg-default: var(--yellow) !important;
+  --color-fg-muted: var(--yellow-dim) !important;
+  --bgColor-default: var(--blue) !important;
+  --bgColor-muted: var(--dark-blue) !important;
+  --color-canvas-subtle: var(--pink) !important;
+  --color-canvas-inset: var(--off-blue) !important;
+  --color-border-default: var(--yellow) !important;
+  --color-btn-text: var(--yellow) !important;
+  --color-btn-bg: var(--blue) !important;
+  --color-btn-selected-bg: var(--dusty-blue) !important;
+  --color-btn-hover-bg: var(--dusty-blue) !important;
+  --color-btn-shadow: var(--yellow) !important;
+  --color-btn-border: var(--yellow) !important;
+  --color-accent-fg: var(--orange) !important;
+  --color-accent-subtle: var(--dark-blue) !important;
+  --color-canvas-overlay: var(--off-blue) !important;
+  --color-neutral-subtle: var(--off-blue) !important;
+
+  --color-prettylights-syntax-entity-tag: var(--yellow) !important;
+  --color-prettylights-syntax-constant: var(--yellow-dim) !important;
+  --color-prettylights-syntax-string: var(--pink) !important;
+  --color-diff-blob-addition-line-bg: var(--dusty-blue) !important;
+  --color-diff-blob-deletion-line-bg: var(--red-dim) !important;
+  --color-diff-blob-addition-num-bg: var(--off-blue) !important;
+  --color-diff-blob-deletion-num-bg: var(--off-blue) !important;
+  --color-diff-blob-addition-num-text: var(--yellow-dim) !important;
+  --color-diff-blob-deletion-num-text: var(--yellow-dim) !important;
+}
+
+body,
+html {
+  font-family: monospace !important;
+}
